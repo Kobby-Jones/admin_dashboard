@@ -1,7 +1,8 @@
 function createBarChart() {
      const lineChart = document.getElementById("myChart");
 
-     new Chart(lineChart, {
+    new Chart(lineChart,
+        {
        type: "line",
        data: {
          labels: ["January", "February", "March", "April", "May", "June"],
@@ -30,13 +31,9 @@ function createBarChart() {
              pointRadius: 0,
              borderWidth: 3,
            },
-         ],
-       },
-       plugins: {
-         Legend: {
-           position: "bottom",
+         ]
          },
-       },
+        
      });
 }
 function createBarChart2() {
@@ -69,19 +66,20 @@ function createBarChart2() {
             "#9D66CC",
           ],
 
-          borderWidth: 3,
+              borderWidth: 3,
+          height:400,
         },
       ],
     },
-    plugins: {
-      Legend: {
-        position: "bottom",
-      },
+    option: {
+      height: 200,
     },
   });
 }
 
-
+function horizontalBarChart() {
+    
+}
 /**
      * COLOR CODES
      * Red: #F7604D
