@@ -13,3 +13,13 @@ nav{
 .nav-link:hover{
     background-color: orange;
 }
+.notification-card {
+    overflow-y: scroll;
+}
+.user-row{
+   background-color: #4e657a; 
+}
+.hrs{
+    margin-left: 110px;
+    color: rgb(172, 166, 166);
+}
