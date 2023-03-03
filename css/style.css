@@ -1,5 +1,7 @@
 body{
     background-color: #4e657a;
+    scrollbar-color: #567086;
+    scrollbar-width: thin;
 }
 nav{
     background-color: #567086;
@@ -15,6 +17,7 @@ nav{
 }
 .notification-card {
     overflow-y: scroll;
+    scrollbar-color:#567086;
 }
 .user-row{
    background-color: #4e657a; 
@@ -22,4 +25,17 @@ nav{
 .hrs{
     margin-left: 110px;
     color: rgb(172, 166, 166);
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #394f62;
+}
+::-webkit-scrollbar-thumb {
+  background: #6d8da6;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8ab5d6;
 }
