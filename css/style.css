@@ -9,6 +9,9 @@ nav{
 .navbar-nav{
     margin-left: 100px;
 }
+.navbar-brand:active{
+    color: orange;
+}
 .nav-link:active{
     background-color: orange;
 }
@@ -38,4 +41,12 @@ nav{
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #8ab5d6;
+}
+.table-card{
+    overflow-x: scroll;
+    width: 97%;
+    margin-left: 10px;
+}
+.table{
+    background-color: #4e657a;
 }
