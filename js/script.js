@@ -78,7 +78,32 @@ function createBarChart2() {
 }
 
 function horizontalBarChart() {
-    
+    let salesChart = document.getElementById("salesChart");
+
+    new Chart(salesChart, {
+      type: "bar",
+      data: {
+        labels: [
+          "Automotives",
+          "Skincare",
+          "Fernitures",
+          "Sunglasses",
+          "Laptops",
+          "Lighting",
+          ],
+          datasets: [
+              {
+                  label: "Product Sales",
+                  data: [23, 45, 67, 40, 15, 67],
+                  
+              }
+          ]
+        },
+        options: {
+            indexAxis: "y",
+            barPercentage:0.2
+      }
+    });
 }
 /**
      * COLOR CODES
