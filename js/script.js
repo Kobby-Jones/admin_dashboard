@@ -95,13 +95,18 @@ function horizontalBarChart() {
               {
                   label: "Product Sales",
                   data: [23, 45, 67, 40, 15, 67],
+                  backgroundColor:['indigo', 'cyan', 'orangered', 'deeppink', 'blue', 'brown']
                   
               }
           ]
         },
         options: {
             indexAxis: "y",
-            barPercentage:0.2
+            barPercentage: 0.2,
+            
+                labels: {
+                    color:'white'
+                }
       }
     });
 }
