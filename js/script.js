@@ -1,7 +1,7 @@
 function createBarChart() {
-     const ctx = document.getElementById("myChart");
+     const lineChart = document.getElementById("myChart");
 
-     new Chart(ctx, {
+     new Chart(lineChart, {
        type: "line",
        data: {
          labels: ["January", "February", "March", "April", "May", "June"],
@@ -39,3 +39,56 @@ function createBarChart() {
        },
      });
 }
+function createBarChart2() {
+  const lineChart = document.getElementById("reviewChart");
+
+  new Chart(lineChart, {
+    type: "doughnut",
+    data: {
+      labels: [
+        "Automotives",
+        "Skincare",
+        "Fernitures",
+        "Sunglasses",
+        "Smartphones and Laptops",
+        "Lighting",
+      ],
+      datasets: [
+        {
+          label: "Latest Product",
+          data: [22.1, 7.3, 5.7, 32.5, 14.6, 10.67],
+          cubicInterpolationMode: "monotone",
+          borderColor: "rgb(75, 192, 192)",
+          pointRadius: 0,
+          backgroundColor: [
+            " #F7604D",
+            "#4ED6B8",
+            "#3889FC",
+            "#A8D582",
+            "#D7D768",
+            "#9D66CC",
+          ],
+
+          borderWidth: 3,
+        },
+      ],
+    },
+    plugins: {
+      Legend: {
+        position: "bottom",
+      },
+    },
+  });
+}
+
+
+/**
+     * COLOR CODES
+     * Red: #F7604D
+     * Aqua: #4ED6B8
+     * Green: #A8D582
+     * Yellow: #D7D768
+     * Purple: #9D66CC
+     * Orange: #DB9C3F
+     * Blue: #3889FC
+     */
