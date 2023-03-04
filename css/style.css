@@ -87,3 +87,7 @@ nav{
 .product-card{
     background-color:#567086;
 }
+.categories-card-wrap{
+    height: 400px;
+    overflow: scroll;
+}
