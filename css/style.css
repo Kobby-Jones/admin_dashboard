@@ -51,3 +51,8 @@ nav{
 .table{
     background-color: #4e657a;
 }
+
+/* Products Page */
+.products-table-card{
+    overflow: scroll;
+}
