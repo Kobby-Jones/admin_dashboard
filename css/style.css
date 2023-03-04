@@ -57,3 +57,10 @@ nav{
     overflow: scroll;
     height: 400px;
 }
+.add-product-btn{
+    background-color: orange;
+}
+.add-product-btn:hover{
+    color: orange;
+    border-color: orange;
+}
