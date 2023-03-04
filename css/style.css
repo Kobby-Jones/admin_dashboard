@@ -59,8 +59,10 @@ nav{
 }
 .add-product-btn{
     background-color: orange;
+    color: white;
+    width: 100%;
 }
 .add-product-btn:hover{
     color: orange;
-    border-color: orange;
+   border-color: orange;
 }
