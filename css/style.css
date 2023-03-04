@@ -3,6 +3,8 @@ body{
     scrollbar-color: #567086;
     scrollbar-width: thin;
 }
+
+/* Home Page */
 nav{
     background-color: #567086;
 }
@@ -17,6 +19,9 @@ nav{
 }
 .nav-link:hover{
     background-color: orange;
+}
+.dashboard-container{
+    background-color: #567086;
 }
 .notification-card {
     overflow-y: scroll;
@@ -47,12 +52,16 @@ nav{
     width: 97%;
     margin-left: 10px;
     overflow-y: scroll;
+    height: 400px;
 }
 .table{
     background-color: #4e657a;
 }
 
 /* Products Page */
+.products-container{
+    background-color: #567086;
+}
 .products-table-card{
     overflow: scroll;
     height: 400px;
