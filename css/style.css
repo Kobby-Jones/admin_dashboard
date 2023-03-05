@@ -121,3 +121,13 @@ option[value="0"]{
     font-size: 2rem;
     display: block;
 }
+.upload-avatar-btn{
+    color: white;
+    background-color: orange;
+    width: 100%;
+}
+.upload-avatar-btn:hover{
+    color: orange;
+    border-color: orange;
+    background-color:  #567086;
+}
