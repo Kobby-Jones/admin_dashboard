@@ -91,3 +91,12 @@ nav{
     height: 400px;
     overflow: scroll;
 }
+
+/* Accounts Page */
+select{
+    background-color: #6d8da6;
+    border: none;
+}
+select:focus{
+   outline: none;
+}
