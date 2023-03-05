@@ -100,3 +100,24 @@ select{
 select:focus{
    outline: none;
 }
+option{
+    color: #c4cacf;
+}
+option[value="0"]{
+    color: #c4cacf;
+}
+.user-img{
+    position: relative;
+}
+
+.avatar-col{
+    background-color: #567086;
+}
+.user-trash-bin{
+    position: absolute;
+    left: 50%;
+    bottom: 45%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+    display: block;
+}
