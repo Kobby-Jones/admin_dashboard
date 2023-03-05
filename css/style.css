@@ -106,6 +106,7 @@ option{
 option[value="0"]{
     color: #c4cacf;
 }
+
 .user-img{
     position: relative;
 }
@@ -119,6 +120,9 @@ option[value="0"]{
     bottom: 45%;
     transform: translateX(-50%);
     font-size: 2rem;
+    display: none;
+}
+.user-card:hover .user-trash-bin{
     display: block;
 }
 .upload-avatar-btn{
@@ -130,4 +134,7 @@ option[value="0"]{
     color: orange;
     border-color: orange;
     background-color:  #567086;
+}
+.form-column{
+    background-color: #567086;
 }
