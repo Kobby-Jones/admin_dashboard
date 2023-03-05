@@ -93,6 +93,10 @@ nav{
 }
 
 /* Accounts Page */
+.option-row{
+    background-color: #567086;
+    width: 96%;
+}
 select{
     background-color: #6d8da6;
     border: none;
