@@ -153,3 +153,7 @@ option[value="0"]{
 input:focus{
     outline: none;
 }
+input[type = "submit"]{
+    margin-top: 30px;
+    background-color: orange;
+}
