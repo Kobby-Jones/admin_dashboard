@@ -157,3 +157,20 @@ input[type = "submit"]{
     margin-top: 30px;
     background-color: orange;
 }
+input[type = "submit"]:focus input{
+    margin-top: 30px;
+    background-color: #6d8da6;
+    color: orange;
+    border-color: orange;
+}
+.update-profile-btn{
+    
+     color: white;
+    background-color: orange;
+    width: 100%;
+}
+.update-profile-btn:hover{
+     color: orange;
+    border-color: orange;
+    background-color:  #567086;
+}
