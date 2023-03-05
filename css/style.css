@@ -138,3 +138,18 @@ option[value="0"]{
 .form-column{
     background-color: #567086;
 }
+/* input{
+    background-color: #6d8da6;
+    border: #6d8da6;
+} */
+.validate{
+    background-color: #6d8da6;
+    border: #6d8da6;
+}
+.validate:focus{
+    background-color: #6d8da6;
+    outline: #6d8da6;
+}
+input:focus{
+    outline: none;
+}
