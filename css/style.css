@@ -2,6 +2,7 @@ body{
     background-color: #4e657a;
     scrollbar-color: #567086;
     scrollbar-width: thin;
+    overflow-x:auto;
 }
 
 /* Home Page */
