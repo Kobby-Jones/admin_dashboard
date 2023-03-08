@@ -189,3 +189,12 @@ input[type = "submit"]:focus input{
     border-color: orange;
     background-color:  #567086;
 }
+
+/* Login Page */
+.login-card{
+    background-color: #567086;
+}
+.login-card input{
+    background-color:#8ab5d6;
+    border-color: #8ab5d6;
+}
