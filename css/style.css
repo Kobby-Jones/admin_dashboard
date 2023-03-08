@@ -235,3 +235,13 @@ input[type = "submit"]:focus input{
     border-color: orange;
     background-color:  #567086;
 }
+.add-product-now-btn{
+    color: white;
+    background-color: orange;
+    width: 100%;
+}
+.add-product-now-btn:hover{
+    color: orange;
+    border-color: orange;
+    background-color:  #567086;
+}
