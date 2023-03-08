@@ -96,13 +96,20 @@
             <div class="col-lg-10 add-product-col mt-5 p-4 ms-auto me-auto">
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="heading  text-start">
+                        <div class="heading text-start">
                             <h5 class="text-light">Add Product</h5>
                         </div>
-                        <label for="name">Product Name</label><br>
+                        <label for="name" class="text-light my-2">Product Name</label><br>
                         <input type="text" style="height: 50px; width: 400px;">
-                        <label for="message">Description</label><br>
+                        <label for="message" class="text-light my-2">Description</label><br>
                         <textarea name="message" id="" cols="51" rows="5"></textarea>
+                        <label for="name" class="text-light my-2">Category</label><br>
+                        <select name="Category" id="" style="width: 400px; height:40px;">
+                            <option value="0">Select Category</option>
+                            <option value="1">New Arrival</option>
+                            <option value="2">Most Popular</option>
+                            <option value="3">Trending</option>
+                        </select>
                     </div>
                 </div>
             </div>
