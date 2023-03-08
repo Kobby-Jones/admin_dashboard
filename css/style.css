@@ -202,3 +202,7 @@ input[type = "submit"]:focus input{
 .add-product-col{
     background-color: #567086;
 }
+.add-product-col input, textarea{
+    background-color: #8ab5d6;
+    border-color: #8ab5d6;
+}
