@@ -206,3 +206,13 @@ input[type = "submit"]:focus input{
     background-color: #8ab5d6;
     border-color: #8ab5d6;
 }
+.forgot-password-btn, .login-btn{
+     color: white;
+    background-color: orange;
+    width: 100%;
+}
+.forgot-password-btn:hover, .login-btn:hover{
+     color: orange;
+    border-color: orange;
+    background-color:  #567086;
+}
