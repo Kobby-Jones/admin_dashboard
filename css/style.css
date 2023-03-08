@@ -198,3 +198,7 @@ input[type = "submit"]:focus input{
     background-color:#8ab5d6;
     border-color: #8ab5d6;
 }
+/* Add Product page */
+.add-product-col{
+    background-color: #567086;
+}
