@@ -12,15 +12,13 @@ nav{
 .navbar-nav{
     margin-left: 100px;
 }
-.navbar-brand:active{
-    color: orange;
-}
-.nav-link:active{
+.navbar-nav .active{
     background-color: orange;
 }
 .nav-link:hover{
     background-color: orange;
 }
+
 .dashboard-container{
     background-color: #567086;
 }
